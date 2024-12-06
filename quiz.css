@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #quiz-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #quiz-container button {
+    display: block; /* Ensures buttons are stacked vertically */
+    width: 100%;    /* Makes the button take the full width of the container */
+    margin: 10px 0; /* Adds space between buttons */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+  #quiz-container button:hover {
+    background-color: lightblue; /* Lighter shade on hover */
+  }
+  
+  #next-button {
+    display: block; /* Ensure it's treated as a block element */
+    margin: 7px ; /* Center it and add spacing above */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: purple; /* Purple color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  #next-button:hover {
+    background-color: #7d47a2; /* Darker shade on hover */
+  }
+  
+  
+  #result-container {
+    text-align: center;
+  }
+  
